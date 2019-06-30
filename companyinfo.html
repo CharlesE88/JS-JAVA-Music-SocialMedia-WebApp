@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Company Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="text/javascript" src="../web401site/js/data.js"></script>
+</head>
+
+<body onload="vPlayer();">
+    <div class="wrapper">
+        <nav class="clearfix">
+            <a href="javascript:history.back()"><img src="../web401site/images/icons/backicon3x.png"></a>
+            <a href="../web401site/home.html"><img src="../web401site/images/icons/homeicon2x.png"></a>
+        </nav>
+    
+        
+        <applet code="../web401site/java/SoundApplication.class" archive = '../web401site/java/JavaLibrary1.jar' height="550" width="550">
+        <param name="permissions" value="all-permissions" />
+          <b id="displayJavaApplet"></b>
+          <button id="play-button">Play</button>
+          <button id="stop-button">Stop</button>
+          <button id="pause-button">Pause</button>
+          <button id="loop-button">Loop</button>
+    </applet>
+    </div>
+    <script>
+function javaApplet() {
+  var x = "Java Enabled: " + navigator.javaEnabled();
+  document.getElementById("displayJavaApplet").innerHTML = x.toUpperCase() + " Please Enable Java to display this Applet. Make sure you're using Java 7 or below.";
+}
+</script>
+    
+</body>
+</html>

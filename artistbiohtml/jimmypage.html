@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jimmy Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav class="clearfix">
+            <a href="javascript:history.back()"><img src="../images/icons/backicon3x.png"></a>
+            <a href="../home.html"><img src="../images/icons/homeicon2x.png"></a>
+        </nav>
+
+        <header>
+            <h1>Jimmy Page</h1>
+        </header>
+
+        <div class="band">
+            <a><img src="../images/artistimages/jimmypagepic.jpg" alt="Jimmy Page"></a>
+            <p>Jimmy Page - Guitarist for Led Zeppelin</p>
+            <div class="bandBio">
+                <p>Jimmy Page was born January 9, 1944, in Heston, England. In 1965, he was asked to join the Yardbirds. In 1968 he formed a new band, renamed Led Zeppelin. The band toured the United States and released their first album, Led Zeppelin I, in 1969. Led Zeppelin soon developed a strong following. In addition to their recordings, Led Zeppelin was one of the most successful live acts of the 1970s.</p>
+            </div>
+        </div>
+
+        <div class="musicContainer">
+            <div class="info">
+                <h1>Guitars</h1>
+                <h2 class="infoBG">Guitars</h2>
+                <ul>
+                    <li>Fender Dragon Telecaster</li>
+                    <li>Gibson Les Paul "Number One"</li>
+                    <li>Gibson Les Paul "Number Two"</li>
+                    <li>Gibson Les Paul "Number Three"</li>
+                    <li>Gibson EDS-1275</li>
+                    <li>Mason Triple Neck</li>
+                    <li>Fender Stratocaster</li>
+                    <li>Vox Phantom Special VII</li>
+                    <li>Danelectro Longhorn Double Neck</li>
+                    <li>Vantage VP700</li>
+                </ul>
+            </div>
+            <div class="info">
+                <h1>Effects Pedals</h1>
+                <h2 class="infoBG">Pedals</h2>
+                <ul>
+                    <li>Vox Thomas Organ Crybaby</li>
+                    <li>Echoplex EP-3</li>
+                </ul>
+            </div>
+            <div class="info">
+                <h1>Amps</h1>
+                <h2 class="infoBG">Amps</h2>
+                <ul id="amps">
+                    <!--li>Marshall Plexi 1959SLP</li>
+                    <li>Vox AC30</li>
+                    <li>Supro Thunderbolt</li>
+                    <li>Supro 1960T Coronado</li>
+                    <li>Vox UL4120</li>
+                    <li>Rickenbacker Transonic</li>
+                    <li>1960s Fender Super Reverb</li-->
+                </ul>
+            </div>
+            <br style="clear: both" />
+        </div>
+        <footer>
+            <p>© 2019 Charles Eudy</p>
+        </footer>
+    </div>
+
+</body>
+<script type="text/javascript">
+    var toppings = ["Marshall Plexi 1959SLP", "Vox AC30", "Supro Thunderbolt",
+        "Supro 1960T Coronado", "Vox UL4120", "Rickenbacker Transonic", "1960s Fender Super Reverb"
+    ];
+
+    var ul = document.querySelector("amps");
+
+    for (var i = 0; i < toppings.length; i++) {
+        var topping = toppings[i];
+
+        var listItem = document.createElement("li");
+        listItem.textContent = topping;
+
+        amps.appendChild(listItem);
+    }
+
+</script>
+
+</html>

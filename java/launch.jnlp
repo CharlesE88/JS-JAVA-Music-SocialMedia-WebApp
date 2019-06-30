@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>JavaLibrary1</title>
+        <vendor>charl</vendor>
+        <homepage href=""/>
+        <description>JavaLibrary1</description>
+        <description kind="short">JavaLibrary1</description>
+    </information>
+    <update check="always"/>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="JavaLibrary1.jar" main="true"/>
+    </resources>
+    <application-desc main-class="com.uop.audio.SoundApplication">
+    </application-desc>
+</jnlp>

@@ -1,0 +1,29 @@
+{
+    "bandName": "The Rolling Stones",
+    "bandOrigin": "London, England",
+    "bandGenres": ["Rock", "Blues"],
+    "bandYearsActive": "1962 - Present Day",
+    "pastBandMembers": ["Brian Jones", "Ian Stewart", "Dick Taylor", "Bill Wyman", "Mick Taylor"],
+    "currentBandMembers": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Ronnie Wood"]
+}, {
+    "bandName": "Led Zeppelin",
+    "bandOrigin": "London, England",
+    "bandGenres": ["Rock", "Blues"],
+    "bandYearsActive": "1968 - 1980",
+    "pastBandMembers": ["Jimmy Page", "Robert Plant", "John Paul Jones", "John Bonham"],
+    "currentBandMembers": ["Jimmy Page", "Robert Plant", "John Paul Jones", "John Bonham"]
+}, {
+    "bandName": "The Beatles",
+    "bandOrigin": "Liverpool, England",
+    "bandGenres": ["Rock", "pop"],
+    "bandYearsActive": "1960 - 1970",
+    "pastBandMembers": ["Pete Best", "Stuart Sutcliffe", "Chas Newby", "Norman Chapman", "Tommy Moore", "Jimmie Nicol"],
+    "currentBandMembers": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
+}, {
+    "bandName": "Lynyrd Skynyrd",
+    "bandOrigin": "Jacksonville, FL, USA",
+    "bandGenres": ["Southern Rock", "Rock", "Blues"],
+    "bandYearsActive": "1964 - 1977 * 1979 & 1987 - Present Day",
+    "pastBandMembers": ["Ronnie Van Zant", "Ed King", "Steve Gaines", "Artimus Pyle", "Allen Collins", "Bob Burns", "Larry Junstrom", "Greg T. Walker", "Leon Wilkeson", "Billy Powell"],
+    "currentBandMembers": ["Johnny Van Zant", "Rickey Medlocke", "Gary Rossington", "Michael Cartellone", "Mark Matejka", "Peter Keys", "Keith Christopher"]
+}

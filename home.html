@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home Screen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../web401site/css/newhome.css">
+    <script type="text/javascript" src="../web401site/js/data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!--body onload="getUserLogin(event);"-->
+<body>
+   <div class="wrapper">
+        <nav class="clearfix">
+            <a href="../web401site/userprofile.html"><img src="../web401site/images/icons/profileicon2x.png"></a>
+            <p id="dashboardUsername"></p>
+        </nav>
+        <div id="container">
+        <h1 id="titleHeader">Find, Create, and Share <br> Be Inspired</h1>
+        <input type="text" id="thisSearch" placeholder="Search by: Genre, Band Name, Artist Name" name="search">
+        <button type="submit" onclick="returnLookUp(event);"><i class="fa fa-search"></i></button>
+    </div>
+    <div id="container"></div>
+    </div>
+    <script>
+        document.getElementById("dashboardUsername").innerHTML = localStorage.getItem('getuser');
+    </script>
+</body>
+</html>

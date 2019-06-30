@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../web401site/css/userlogin.css">
+    <script type="text/javascript" src="../web401site/js/data.js"></script>
+</head>
+
+<body>
+    <div id="wrapper-login-id" class="wrapper-login">
+        <form class="container-form" method="post" action="" name="loginForm">
+            <div class="container-welcome">
+                <img src="../web401site/images/icons/logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="container-login">
+                <label for="uname"><b>Username</b></label>
+                <input required autofocus autocomplete="off" placeholder="Enter Username" name="userName" type="text" class="validated" id="username" pattern=".{5,100}">
+
+                <label for="psw"><b>Password</b></label>
+                <input required type="password" placeholder="Enter Password" name="psw" id="password">
+
+                <button type="submit" onclick="returnUserProfile(event);">Login/Sign Up</button>
+                <label>
+                    <input type="checkbox" name="remember"> Remember Username
+                </label>
+            </div>
+            <div class="container-frt-psw" style="background-color:#f1f1f1">
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+            <footer>
+            <p>© 2019 Charles Eudy</p>
+        </footer>
+        </form>
+    </div>
+    <applet code="../web401site/java/SoundApplication.class" archive = '../web401site/java/JavaLibrary1.jar' height="550" width="550">
+        <param name="permissions" value="sandbox" />
+          <b>Sorry, you need Java to play this game.</b>
+    </applet>
+</body>
+<!--script type=text/javascript>
+   var userName = document.getElementById('userName')
+ userName.oninvalid = function(e) {
+	e.target.setCustomValidity("");
+	if (e.target.validity.valid == false) {
+		if (e.target.value.length == 0) {
+			//e.target.setCustomValidity("A username is required.");
+            alert("A username is required.");
+		} else if (e.target.value.length < 5) {
+			//e.target.setCustomValidity("Username must be at least 5 characters."); 
+            alert("Username must be at least 5 characters.");
+		}
+	}
+     var user = JSON.stringify(userName.e);
+     localStorage.setItem('username',user);
+     
+};
+</script-->
+</html>
